@@ -15,6 +15,11 @@
         <dependency>
             <groupId>cn.jeffpan</groupId>
             <artifactId>security-core</artifactId>
+            <version>${security.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.session</groupId>
+            <artifactId>spring-session</artifactId>
         </dependency>
     </dependencies>
 </project>

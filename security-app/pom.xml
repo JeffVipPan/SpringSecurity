@@ -15,6 +15,7 @@
         <dependency>
             <groupId>cn.jeffpan</groupId>
             <artifactId>security-core</artifactId>
+            <version>${security.version}</version>
         </dependency>
     </dependencies>
 

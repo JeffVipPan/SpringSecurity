@@ -16,6 +16,7 @@
     <packaging>pom</packaging>
 
     <properties>
+        <security.version>1.0-SNAPSHOT</security.version>
     </properties>
 
     <dependencyManagement>
@@ -39,7 +40,6 @@
 
     <build>
         <plugins>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -50,7 +50,6 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
 
