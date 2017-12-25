@@ -11,5 +11,10 @@
 
     <artifactId>security-browser</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>cn.jeffpan</groupId>
+            <artifactId>security-core</artifactId>
+        </dependency>
+    </dependencies>
 </project>
