@@ -24,7 +24,6 @@ public class TimeFilter implements Filter {
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
 
         log.info("filter starting");
-
         long time = System.currentTimeMillis();
         filterChain.doFilter(servletRequest,servletResponse);
         log.info(String.valueOf(System.currentTimeMillis() -time));
