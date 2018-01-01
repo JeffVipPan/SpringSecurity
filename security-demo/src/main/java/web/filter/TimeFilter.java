@@ -17,6 +17,7 @@ public class TimeFilter implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
         log.info("Time Filter init");
+
     }
 
     @Override
